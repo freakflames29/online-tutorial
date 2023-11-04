@@ -1,0 +1,9 @@
+DRY: Donot repeat yourself
+
+
+KISS: Keep it so simple
+1. funtion
+
+function nameChange (){
+    name="x"-->"y"
+}
