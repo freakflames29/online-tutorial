@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&family=Oswald:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 60%;
+  margin: auto;
+    /* background-color: red; */
+  /* padding: 10px; */
+  margin-top: 2%;
+  height: 90%;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #c1c1c1;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  height: 80%;
+  transition: 0.5s ease;
+  border-radius: 15px;
+}
+
+.card:hover{
+    box-shadow: 1px 12px 25px -8px rgba(111, 111, 111, 0.75);
+    -webkit-box-shadow: 1px 12px 25px -8px rgba(111, 111, 111, 0.75);
+    -moz-box-shadow: 1px 12px 2px -8px rgba(111, 111, 111, 0.75);
+}
+.imgBox {
+  width: 30%;
+}
+.imgBox img {
+  width: 100%;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+.imgBox img:hover{
+    transform: scale(1.02) rotate(2deg);
+    /* transform:  ; */
+    box-shadow: 1px 12px 25px -8px rgba(111, 111, 111, 0.75);
+    -webkit-box-shadow: 1px 12px 25px -8px rgba(111, 111, 111, 0.75);
+    -moz-box-shadow: 1px 12px 2px -8px rgba(111, 111, 111, 0.75);
+}
+.content {
+  
+  width: 70%;
+  padding-left: 30px;
+}
+.content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.content h3 {
+  font-size: 20px;
+}
+
+.content ol
+{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+.content h3{
+    color: #c1c1c1;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background: #ff7a7a;
+    text-decoration: none;
+    color: white;
+    border: none;
+    
+}
+button a{
+    color: #fff;
+}
+.heading_line{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 35px;
+    font-weight: 700;
+    color: #ff7a7a;
+}
